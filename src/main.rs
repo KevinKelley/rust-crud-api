@@ -16,8 +16,8 @@ struct User {
 }
 
 //DATABASE_URL
-//const DB_URL: &str = env!("DATABASE_URL");
-const DB_URL: &str = "postgres://postgres:postgres@localhost:5432/postgres";
+const DB_URL: &str = env!("DATABASE_URL");
+//const DB_URL: &str = "postgres://postgres:postgres@localhost:5432/postgres";
 
 //constants
 const OK_RESPONSE : &str = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n";
